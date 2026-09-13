@@ -1,5 +1,9 @@
 # devops-capstone-project
 
+![Build Status](https://github.com/Costas1992/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+
+
 This is the DevOps Capstone Project repository. It contains a customer
 accounts microservice built with Python and Flask, exposing a REST API
 to create, read, update, delete, and list customer accounts (name and

@@ -188,4 +188,4 @@ class TestAccountService(TestCase):
     def test_delete_account_not_found(self):
         """It should still return 204 when deleting an Account that does not exist"""
         resp = self.client.delete(f"{BASE_URL}/0")
-        self.assertEqual(resp.status_code, status.HTTP_204_NO_CONTENT)                
+        self.assertEqual(resp.status_code, status.HTTP_204_NO_CONTENT)
